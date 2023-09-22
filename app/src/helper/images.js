@@ -1,9 +1,10 @@
-import splash from '../../assets/images/splash.svg';
+import logo from "../../assets/images/logo.svg";
+import backArrow from "../../assets/images/backArrow.svg";
 
 export const Images = {
   //svg
-  splash: splash,
+  logo: logo,
+  backArrow: backArrow,
 
   //png
-  splashPng: require('../../assets/images/splash.png'),
 };
