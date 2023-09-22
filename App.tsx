@@ -5,18 +5,18 @@
  * @format
  */
 
-import React from 'react';
-import {StatusBar} from 'react-native';
-import {Provider} from 'react-redux';
+import React from "react";
+import { StatusBar } from "react-native";
+import { Provider } from "react-redux";
 
 //import routes
-import Routes from './app/src/routes/routes';
+import Routes from "./app/src/routes/routes";
 
 //import helper
-import {Colors} from './app/src/helper/colors';
+import { Colors } from "./app/src/helper/colors";
 
 //import redux
-import configureStore from './app/src/redux/store';
+import configureStore from "./app/src/redux/store";
 
 const App = () => {
   const store = configureStore();
@@ -27,7 +27,7 @@ const App = () => {
       <StatusBar
         animated={true}
         backgroundColor={Colors.black}
-        barStyle={'dark-content'}
+        barStyle={"dark-content"}
       />
       <Routes />
       {/* </Provider> */}

@@ -1,5 +1,9 @@
-import AfterWorkParty from '../../assets/images/AfterWorkParty.svg';
+import splash from '../../assets/images/splash.svg';
 
 export const Images = {
-  AfterWorkParty: AfterWorkParty,
+  //svg
+  splash: splash,
+
+  //png
+  splashPng: require('../../assets/images/splash.png'),
 };
