@@ -14,6 +14,7 @@ import CustomHeader from "../../component/customHeader";
 //import helper
 import { Images } from "../../helper/images";
 import { Colors } from "../../helper/colors";
+import Input from "../../component/customInput";
 
 const SignIn = (props) => {
   return (
@@ -26,6 +27,14 @@ const SignIn = (props) => {
         leftIcon="arrow-left"
         subTitleColor={Colors.black}
         subTitle={"Signin"}
+      />
+      <Input
+        // onChangeText={text => handleOnchange(text, 'email')}
+        // onFocus={() => handleError(null, 'email')}
+        iconName="email-outline"
+        label="Email"
+        placeholder="Enter your email address"
+        // error={errors.email}
       />
     </>
   );
